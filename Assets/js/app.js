@@ -21,9 +21,6 @@ $('#carouselDiv').on('slide.bs.carousel', function (e) {
 });
 
 
-
-
-
 projectTab.on("click", function() {
   if ($(this).hasClass("active") === false) {
     $(this).addClass("active");

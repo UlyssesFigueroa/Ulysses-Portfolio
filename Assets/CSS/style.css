@@ -1,22 +1,14 @@
-
-
-
-
-
-
-
+body {
+  background-color: #f6f4f2;
+  height: 100vh;
+  font-family: 'Cinzel', sans-serif;
+  color: #425664;
+}
 
 header {
   background-color: #425664;
   color: white;
 }
-
-  body {
-    background-color: #f6f4f2;
-    height: 100vh;
-    font-family: 'Cinzel', sans-serif;
-    color: #425664;
-  }
 
   h3 {
     text-align: center;
@@ -68,8 +60,8 @@ header {
   }
 
   .project-text {
-  width: 80%;
-  height: 80%;
+  width: 90%;
+  height: 90%;
   margin: 0 auto;
   padding: 30px 0;
     /* text-align: center; */
@@ -81,8 +73,8 @@ header {
 
   .btn-secondary {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 16px;
-    letter-spacing: 2px;
+    font-size: 14px;
+    letter-spacing: 1px;
     background-color: white;
     color: #425664;
     font-weight: bold;
@@ -94,7 +86,7 @@ header {
     border:2px solid #c6ad8f;
     font-weight: bold;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 18px;
+    font-size: 16px;
     letter-spacing: 2px;
 
     

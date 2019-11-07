@@ -28,8 +28,10 @@ projectTab.on("click", function() {
   }
   if ($("#btn1").hasClass("active")) {
     pleasantly();
-  } else {
+  } else if ($("#btn2").hasClass("active")){
     movieQuiz();
+  } else {
+    passwordGen();
   }
 
 })
@@ -51,5 +53,24 @@ function pleasantly() {
   $(".btn-web").attr("href", "https://lljirie.github.io/Project1/");
   $(".btn-git").attr("href", "https://github.com/LLJirie/Project1");
 }
+
+function passwordGen() {
+  $(".card-img-top").attr("src", "./Assets/Images/password-generator.png");
+  $(".card-title").text("Password Generator");
+  $(".card-text").text("Create a secure password.");
+  $(".projectInfo").text("A website to help generate a unique password containing your choice of lower case, upper case, special characters, and numbers.");
+  $(".btn-web").attr("href", "https://ulyssesfigueroa.github.io/Password-Generator/");
+  $(".btn-git").attr("href", "https://github.com/UlyssesFigueroa/Password-Generator");
+}
+
+
+
+
+
+$(".userResume").on("click", function() {
+  window.open('UlyssesFigueroa_Resume.pdf', '_blank', 'fullscreen=yes'); 
+  return false;
+  
+})
 
 // Pleasantly();

@@ -23,6 +23,12 @@ header {
     justify-content: center;
   }
 
+  h5 {
+    font-family: 'Jomolhari', serif;
+    font-size: 18px;
+    font-weight: 200;
+  }
+
   p {
     font-family: 'Jomolhari', serif;
     font-size: 18px;
@@ -100,6 +106,14 @@ header {
 
   .btn-secondary.focus, .btn-secondary:focus {
     box-shadow: none;
+  }
+
+  a.userGit, a.userLinkedIn, a.userResume {
+    border-bottom: 2px solid white;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+
   }
 
   a.btn-git, a.btn-web {
